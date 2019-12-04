@@ -2,12 +2,6 @@
 
 This repo plays around with Amazon Textract and other AWS services to get insights from documents.
 
-## Usage
-
-python3 01-detect-text-local.py
-
-For examples that use S3 bucket, upload sample images to an S3 bucket and update variable "s3BucketName" in the example before running it.
-
 
 ## Environment setup
 
@@ -19,6 +13,14 @@ $ pipenv shell
 ```
 
 Do Not Forget to setup your AWS CLI credentials locally
+
+
+## Usage
+
+```bash
+$ python 01-detect-text-local.py
+```
+For examples that use S3 bucket, upload sample images to an S3 bucket and update variable "s3BucketName" in the example before running it.
 
 
 ## Python Samples
